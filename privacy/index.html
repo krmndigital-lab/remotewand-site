@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy policy — Remote Wand</title>
+<link rel="icon" href="../assets/icon.png">
+<link rel="stylesheet" href="../assets/site.css">
+</head>
+<body>
+<main>
+<header>
+  <img src="../assets/icon.png" alt="Remote Wand icon">
+  <div><h1>Privacy policy</h1><p>Remote Wand: Universal TV &amp; PC (com.krmndigital.remotewand) and Remote Wand Desktop · KRMN Digital · effective 8 November 2026</p></div>
+</header>
+
+<p><strong>Summary: Remote Wand has no account system and we do not collect, store or receive any personal data on our servers — we do not have servers.</strong> Everything you set up stays on your phone. The free version shows ads through Google AdMob, which processes some data as described below; Remote Wand Pro removes ads entirely.</p>
+
+<h2>What the app stores on your phone</h2>
+<ul>
+<li>Your saved devices (name, type, last known network address, and the pairing data each TV or PC gives the app: a certificate for Android TV, a token for Samsung, a client key for LG, a pairing key for Remote Wand Desktop).</li>
+<li>Your settings (language, theme, haptics, sensitivity, macros) and whether Pro is active.</li>
+</ul>
+<p>These files live in the app's private storage, are excluded from Android backups, are never uploaded anywhere and are deleted when you uninstall the app.</p>
+
+<h2>Network communication</h2>
+<table>
+<tr><th>Purpose</th><th>Who receives it</th><th>What is sent</th></tr>
+<tr><td>Controlling your TV or PC</td><td>Only the device you chose, on your local network or over Bluetooth</td><td>Remote commands (keys, pointer movement, text you type into the TV field) and a device name for the pairing dialog, e.g. "Remote Wand (phone model)". Wi-Fi traffic to Remote Wand Desktop is encrypted (X25519 + ChaCha20-Poly1305). Traffic to TVs uses the TV maker's own protocol.</td></tr>
+<tr><td>Finding devices</td><td>Your local network (multicast)</td><td>Standard mDNS / SSDP discovery queries. Nothing leaves your network.</td></tr>
+<tr><td>Purchases</td><td>Google Play</td><td>Google Play Billing handles the Pro purchase; we only learn whether the purchase is active. Google's privacy policy applies.</td></tr>
+<tr><td>Ads (free version only)</td><td>Google AdMob (Google LLC) and its advertising partners</td><td>The advertising ID, approximate location derived from the IP address, device and app information, and ad interaction data, as described in Google's policies. In the EEA, the UK and Switzerland you are asked for consent first (Google User Messaging Platform) and can change your choice in Settings → Privacy options. Pro removes ads and this data flow.</td></tr>
+</table>
+<p>Remote Wand does not use analytics or crash-reporting SDKs and has no server of its own.</p>
+
+<h2>Remote Wand Desktop (PC companion)</h2>
+<p>The desktop program listens on your local network for phones you paired with a PIN, and stores the pairing keys and the names of paired phones in its configuration folder on the PC. It makes no internet connections.</p>
+
+<h2>Permissions</h2>
+<table>
+<tr><th>Permission</th><th>Why</th></tr>
+<tr><td>INTERNET, ACCESS_NETWORK_STATE, ACCESS_WIFI_STATE, CHANGE_WIFI_MULTICAST_STATE</td><td>Talk to TVs and PCs on your local network and discover them.</td></tr>
+<tr><td>BLUETOOTH_CONNECT, BLUETOOTH_ADVERTISE (Android 12+), BLUETOOTH / BLUETOOTH_ADMIN (older)</td><td>Make the phone appear as a Bluetooth keyboard and mouse and connect to the device you paired. The app never scans for nearby devices and does not request location.</td></tr>
+<tr><td>VIBRATE</td><td>Haptic feedback on keys (can be turned off).</td></tr>
+<tr><td>com.android.vending.BILLING</td><td>Remote Wand Pro purchase through Google Play.</td></tr>
+<tr><td>AD_ID</td><td>Google AdMob in the free version.</td></tr>
+</table>
+
+<h2>Children</h2>
+<p>Remote Wand is a general-purpose utility and does not knowingly collect any information from anyone, including children.</p>
+
+<h2>Your choices</h2>
+<ul>
+<li>Forget a device in the app to delete its pairing data; uninstalling deletes everything.</li>
+<li>Reset or delete your advertising ID in Android settings; buy Pro to remove ads.</li>
+<li>Questions or requests: <a href="mailto:krmndigital@gmail.com">krmndigital@gmail.com</a>.</li>
+</ul>
+
+<h2>Changes</h2>
+<p>If this policy changes, the new version is published on this page with a new effective date.</p>
+
+<footer>© KRMN Digital. Android TV and Google TV are trademarks of Google LLC. Other names are trademarks of their owners, used only to describe compatibility.</footer>
+</main>
+</body>
+</html>

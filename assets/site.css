@@ -1,0 +1,18 @@
+:root { --bg: #0b0f1a; --panel: #121829; --ink: #f2f5ff; --dim: #9aa6c4; --accent: #7c5cff; --mint: #2ed3a8; --link: #b9a9ff; }
+* { box-sizing: border-box; }
+body { margin: 0; font: 17px/1.6 -apple-system, "Segoe UI", Inter, Roboto, sans-serif; color: var(--ink); background: radial-gradient(1200px 600px at 20% -10%, #2a2466 0%, var(--bg) 60%); min-height: 100vh; }
+main { max-width: 860px; margin: 0 auto; padding: 48px 24px 80px; }
+header { display: flex; align-items: center; gap: 16px; margin-bottom: 32px; }
+header img { width: 64px; height: 64px; border-radius: 16px; }
+header h1 { margin: 0; font-size: 28px; }
+header p { margin: 0; color: var(--dim); }
+h2 { margin-top: 40px; font-size: 22px; }
+a { color: var(--link); }
+.card { background: var(--panel); border: 1px solid rgba(255,255,255,.08); border-radius: 16px; padding: 20px 24px; margin: 20px 0; }
+.btn { display: inline-block; background: var(--accent); color: #fff; font-weight: 700; padding: 12px 20px; border-radius: 12px; text-decoration: none; margin-right: 8px; }
+.btn.alt { background: var(--mint); color: #06281f; }
+table { border-collapse: collapse; width: 100%; } td, th { text-align: left; padding: 8px 10px; border-bottom: 1px solid rgba(255,255,255,.1); vertical-align: top; }
+footer { margin-top: 60px; color: var(--dim); font-size: 14px; }
+code { background: rgba(255,255,255,.08); padding: 2px 6px; border-radius: 6px; }
+.lang a { margin-right: 14px; }
+.muted { color: var(--dim); }

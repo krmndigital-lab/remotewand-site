@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Remote Wand Desktop — control your PC from your phone</title>
+<meta name="description" content="Remote Wand Desktop is the free Windows companion of the Remote Wand Android app: trackpad, keyboard, media keys and power actions over Wi-Fi, paired with a PIN and encrypted.">
+<link rel="icon" href="../assets/icon.png">
+<link rel="stylesheet" href="../assets/site.css">
+</head>
+<body>
+<main>
+<header>
+  <img src="../assets/icon.png" alt="Remote Wand icon">
+  <div><h1>Remote Wand Desktop</h1><p>Free companion for Windows · lets the Remote Wand app control your PC over Wi-Fi</p></div>
+</header>
+
+<p>Install this small program on your PC, open <strong>Remote Wand</strong> on your phone, choose <em>Add device → Wi-Fi</em> and enter the 6-digit code shown by the program. From then on your phone is a trackpad, keyboard, media remote and power button for the PC. No internet connection is used; the link stays on your Wi-Fi and is encrypted.</p>
+
+<div class="card">
+<h2 style="margin-top:0">Download</h2>
+<p><a class="btn" href="RemoteWandDesktop-windows-x64.zip">Windows 10 / 11 (64-bit) — ZIP</a></p>
+<p class="muted">Unzip and run <code>remote-wand-desktop.exe</code>. Windows SmartScreen may warn about an unknown publisher the first time: choose "More info → Run anyway". The program is not signed with a paid certificate.</p>
+<p class="muted">macOS and Linux builds: planned.</p>
+</div>
+
+<h2>Features</h2>
+<ul>
+<li>Trackpad with two-finger scrolling and right click, keyboard with special keys and function keys, unicode text in any language.</li>
+<li>Media keys and volume, presentation keys (next / previous slide, black screen).</li>
+<li>Lock, sleep, restart and shut down from your phone (each asks for confirmation).</li>
+<li>Pairing with a 6-digit PIN; the connection is encrypted (X25519, ChaCha20-Poly1305). Paired phones can be forgotten at any time.</li>
+<li>Runs in the system tray; can start with Windows.</li>
+</ul>
+
+<h2>Requirements</h2>
+<p>Phone and PC on the same local network. Remote Wand Pro on the phone (PC control over Wi-Fi is a Pro feature; the Bluetooth keyboard/mouse mode works without the desktop program and without Pro).</p>
+
+<h2>Firewall</h2>
+<p>The program listens on TCP port 47101 and announces itself with mDNS (Bonjour-style) on your local network. Windows asks once to allow it on private networks; choose "Allow".</p>
+
+<footer>© KRMN Digital · <a href="../privacy/">Privacy policy</a> · <a href="../terms/">Terms of use</a></footer>
+</main>
+</body>
+</html>
